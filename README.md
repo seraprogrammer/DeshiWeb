@@ -20,16 +20,24 @@
 ---
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/DeshiJS/DeshiJS@main/dev/v1.js" defer></script>
-<div $data='{"count": 10}'>
-  <p $text="{count}"></p>
-  <button on:click="incrementCount">Increase Count</button>
-</div>
+<script src="//unpkg.com/deshijs" defer></script>
+
+<div id="root"></div>
+
+<template app>
+  <button
+    $text="{$.counter} {$.counter <= 1 ? 'time' : 'times'}"
+    @click="incrementCounter"
+  ></button>
+</template>
 
 <script>
-  const $ = {}
-  function incrementCount() {
-    $.count++;
+  const $ = {
+    counter: 0,
+  };
+
+  function incrementCounter() {
+    $.counter++;
   }
 </script>
 ```
