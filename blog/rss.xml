@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>DeshiJS Blog</title>
+        <link>https://deshijs.vercel.app/blog</link>
+        <description>DeshiJS Blog</description>
+        <lastBuildDate>Sun, 08 Sep 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[The Next-Gen JavaScript Framework]]></title>
+            <link>https://deshijs.vercel.app/blog/deshijs</link>
+            <guid>https://deshijs.vercel.app/blog/deshijs</guid>
+            <pubDate>Sun, 08 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[DeshiJS is a minimalistic JavaScript framework designed to add dynamic behavior]]></description>
+            <content:encoded><![CDATA[<p>DeshiJS is a minimalistic JavaScript framework designed to add dynamic behavior
+to web projects. It focuses on smooth integration and ease of use, making it
+simple to manage and update the state of your application12.</p>
+<p><strong>Some key features include</strong>:</p>
+<p>Smooth Integration: Easily add dynamic functionality to your projects.
+Minimalistic Design: Keep your setup clean and straightforward. Dynamic State
+Management: Efficiently manage and update your application’s state1. If you’re
+interested in exploring more, you can check out their GitHub repository1.</p>
+<p>Are you considering using it for a project?</p>]]></content:encoded>
+            <category>deshijs</category>
+        </item>
+    </channel>
+</rss>

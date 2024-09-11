@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"The Next-Gen JavaScript Framework","permalink":"/blog/deshijs","unlisted":false,"date":"2024-09-08T00:00:00.000Z"}]}')}}]);

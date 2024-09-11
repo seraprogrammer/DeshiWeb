@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://deshijs.vercel.app/blog</id>
+    <title>DeshiJS Blog</title>
+    <updated>2024-09-08T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://deshijs.vercel.app/blog"/>
+    <subtitle>DeshiJS Blog</subtitle>
+    <icon>https://deshijs.vercel.app/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[The Next-Gen JavaScript Framework]]></title>
+        <id>https://deshijs.vercel.app/blog/deshijs</id>
+        <link href="https://deshijs.vercel.app/blog/deshijs"/>
+        <updated>2024-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[DeshiJS is a minimalistic JavaScript framework designed to add dynamic behavior]]></summary>
+        <content type="html"><![CDATA[<p>DeshiJS is a minimalistic JavaScript framework designed to add dynamic behavior
+to web projects. It focuses on smooth integration and ease of use, making it
+simple to manage and update the state of your application12.</p>
+<p><strong>Some key features include</strong>:</p>
+<p>Smooth Integration: Easily add dynamic functionality to your projects.
+Minimalistic Design: Keep your setup clean and straightforward. Dynamic State
+Management: Efficiently manage and update your application’s state1. If you’re
+interested in exploring more, you can check out their GitHub repository1.</p>
+<p>Are you considering using it for a project?</p>]]></content>
+        <author>
+            <name>Nazmul Hossain</name>
+        </author>
+        <category label="deshijs" term="deshijs"/>
+    </entry>
+</feed>
