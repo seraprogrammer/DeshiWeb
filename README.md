@@ -20,25 +20,24 @@
 ---
 
 ```html
-<script src="//unpkg.com/deshijs" defer></script>
-
 <div id="root"></div>
 
 <template app>
   <button
-    $text="{$.counter} {$.counter <= 1 ? 'time' : 'times'}"
-    @click="incrementCounter"
+    $text="{counter} {counter <= 1 ? 'time' : 'times'}"
+    @click="incrementCounter()"
   ></button>
 </template>
 
-<script>
-  const $ = {
+<script type="module">
+  import deshi from "//unpkg.com/deshijs";
+  deshi.init();
+  signal = {
     counter: 0,
+    incrementCounter: function () {
+      this.counter++;
+    },
   };
-
-  function incrementCounter() {
-    $.counter++;
-  }
 </script>
 ```
 
